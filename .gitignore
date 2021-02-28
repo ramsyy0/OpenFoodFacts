@@ -6,3 +6,7 @@ raw_data/
 **/__pycache__/
 .env
 *.csv
+
+*.vscode
+#.keep
+#.virtual_documents/
