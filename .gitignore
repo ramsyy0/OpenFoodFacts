@@ -9,4 +9,4 @@ raw_data/
 
 *.vscode
 #.keep
-#.virtual_documents/
+.virtual_documents/
