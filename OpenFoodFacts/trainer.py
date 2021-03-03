@@ -4,10 +4,10 @@ from sklearn.linear_model import RidgeClassifier
 from sklearn.pipeline import Pipeline
 import joblib
 from google.cloud import storage
-from config import gcs_config
 
-from encoders import CustomPreprocessorNoSpellCheck
-from data import get_data
+from OpenFoodFacts.config import gcs_config
+from OpenFoodFacts.encoders import CustomPreprocessorNoSpellCheck
+from OpenFoodFacts.data import get_data
 
 def train_model():
     df = get_data()

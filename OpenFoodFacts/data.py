@@ -1,6 +1,6 @@
 import pandas as pd
 from google.cloud import storage
-from config import gcs_config
+from OpenFoodFacts.config import gcs_config
 
 def get_data():
     client = storage.Client()

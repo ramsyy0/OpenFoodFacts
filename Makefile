@@ -8,7 +8,7 @@ BUCKET_MODEL_FILE='model/v1/ridge'
 JOB_NAME='full_training_1'
 BUCKET_TRAINING_FOLDER='trainings'
 PACKAGE_NAME='OpenFoodFacts'
-PYTHON_VERSION='3.8.6'
+PYTHON_VERSION='3.7'
 RUNTIME_VERSION='2.4'
 
 REGION='europe-west1'
