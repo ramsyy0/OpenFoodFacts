@@ -5,7 +5,7 @@ BUCKET_NAME='wagon-ml-ramsyy-00'
 BUCKET_DATA_FILE='data/ocr_labeled_spellcheck.csv'
 BUCKET_MODEL_FILE='model/v1/ridge'
 
-JOB_NAME='full_training_1'
+JOB_NAME=full_training_$(shell date +'%Y%m%d_%H%M%S')
 BUCKET_TRAINING_FOLDER='trainings'
 PACKAGE_NAME='OpenFoodFacts'
 PYTHON_VERSION='3.7'
